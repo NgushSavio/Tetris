@@ -1,0 +1,29 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+ }
+ body{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-direction: space-evenly;
+ }
+
+#tetris{
+    background-color: white;
+    box-shadow: 0 0 10px lightgrey;
+}
+#score {
+    color: #00ffcc;
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+canvas {
+    background-color: #111;
+    border: 2px solid #333;
+}

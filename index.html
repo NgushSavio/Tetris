@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+ </head>
+ <body>
+   <h2 id="score">Score: 0</h2>
+<div style="display: flex; gap: 20px; align-items: start; justify-content: center;">
+  <div>
+    <canvas id="tetris" width="300" height="600"></canvas>
+  </div>
+  <div>
+    <h3 style="color: #00ffcc; font-family: 'Courier New', monospace;">Next</h3>
+    <canvas id="next" width="120" height="120" style="background: #000; border: 1px solid #333;"></canvas>
+  </div>
+</div>
+<div style="text-align: center; margin-bottom: 15px; color: #00ffcc; font-family: 'Courier New', monospace;">
+  <h2 id="score">Score: 0</h2>
+  <h3 id="highScore">High Score: 0</h3>
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+   <button id="muteBtn" style="margin: 10px;">🔇 Mute</button>
+   <button id="startBtn" style="padding: 10px 20px; font-size: 16px;">Start</button>
+  <button id="pauseBtn" style="padding: 10px 20px; font-size: 16px; margin-left: 10px;">Pause</button>
+</div>
+<div style="text-align: center; margin-bottom: 15px;">
+  <button id="startBtn">▶️ Start</button>
+  <button id="pauseBtn" disabled>⏸️ Pause</button>
+</div>
+
+ </body>
+ <script src="./script.js"></script>
+ </html> 
